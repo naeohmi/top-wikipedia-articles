@@ -1,0 +1,11 @@
+{
+  "filterOptionsContainer.searchButton": "Search",
+  "errorMessage.text": "Sorry an error occurred",
+  "resultLimit.numResults": "Num results",
+  "localeSwitcher.inputLabel": "Locale",
+  "localeSwitcher.dateForToday": "Today is: ",
+  "heading.text": "Top Wikipedia Articles",
+  "customDatePicker.subHeading": "Date",
+  "article.cardViews": " views",
+  "countrySearch.country": "Country"
+}

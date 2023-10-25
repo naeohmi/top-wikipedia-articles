@@ -1,0 +1,11 @@
+{
+  "filterOptionsContainer.searchButton": "Recherche",
+  "errorMessage.text": "Désolé, une erreur s'est produite",
+  "resultLimit.numResults": "Nombre de résultats",
+  "localeSwitcher.inputLabel": "Langue",
+  "localeSwitcher.dateForToday": "Aujourd'hui c'est : ",
+  "heading.text": "Meilleurs articles de Wikipédia",
+  "customDatePicker.subHeading": "Date",
+  "article.cardViews": " vues",
+  "countrySearch.country": "Pays"
+}

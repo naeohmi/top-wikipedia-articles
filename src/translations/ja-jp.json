@@ -1,0 +1,11 @@
+{
+  "filterOptionsContainer.searchButton": "検索",
+  "errorMessage.text": "申し訳ありませんがエラーが発生しました",
+  "resultLimit.numResults": "結果の数",
+  "localeSwitcher.inputLabel": "国語",
+  "localeSwitcher.dateForToday": "今日は：",
+  "heading.text": "ウィキペディアのトップ記事",
+  "customDatePicker.subHeading": "日付",
+  "article.cardViews": " ビュー",
+  "countrySearch.country": "国"
+}

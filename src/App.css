@@ -1,0 +1,53 @@
+.App {
+  background-color: #f5f7f7;
+  padding: 20px;
+}
+
+.align-center-with-padding {
+  text-align: center;
+  padding: 30px;
+  align-items: center;
+}
+
+.filter-grid-container {
+  align-items: center;
+  background-color: white;
+  border-radius: 45px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px,
+    rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+  padding: 20px;
+  margin: 20px;
+
+  .color__light-green {
+    background-color: #ecf1e0;
+  }
+  .color__light-orange {
+    background-color: #fae7cc;
+  }
+  .color__light-blue {
+    background-color: #dee8f6;
+  }
+}
+
+.search-button {
+  padding: 20px 40px 20px 40px !important;
+  border-radius: 30px !important;
+}
+
+.color__dark-green {
+  background-color: #025b4b !important;
+}
+
+/* extra small mobile */
+@media only screen and (max-width: 600px) {
+  .search-button {
+    padding: 15px 95px !important;
+  }
+}
+
+/* default mui breakpoints */
+/* xs, extra-small: 0px */
+/* sm, small: 600px */
+/* md, medium: 900px */
+/* lg, large: 1200px */
+/* xl, extra-large: 1536px */
