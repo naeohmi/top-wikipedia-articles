@@ -32,7 +32,7 @@ const CountrySearch = ({ countrySearchValue, setCountrySearchValue }) => {
             setCountrySearchValue(newResultLimit.target.value)
           }
         >
-          {["CA", "FR", "JP", "KR", "MA", "MX", "NZ", "US"].map(
+          {Object.keys(countryNameMapping).map(
             (countryName) => (
               <MenuItem key={countryName} value={countryName}>
                 {countryNameMapping[countryName]}
