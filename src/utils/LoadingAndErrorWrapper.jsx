@@ -12,7 +12,7 @@ const LoadingAndErrorWrapper = ({ children, isLoading, isError }) => {
     );
   }
 
-  if (isError && !isLoading) {
+  if ((isError && !isLoading) || (!isError && !isLoading)) {
     return (
       <>
         <Typography>

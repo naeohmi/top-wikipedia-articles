@@ -30,7 +30,7 @@ const LocaleSwitcher = (props) => {
           label="Locale"
           onChange={IntlProviderContext.selectLanguage}
         >
-          {["en", "fr", "ja", "ar"].map((locale) => (
+          {Object.keys(localeMapping).map((locale) => (
             <MenuItem key={locale} value={locale}>
               {localeMapping[locale]}
             </MenuItem>
